@@ -17,12 +17,16 @@ This is my First JavaScript Project.
 - JavaScript
 ## Screenshots
 
-![todoList]()
+![todoList1](https://github.com/AbdulrahmanIsmael/TO-DO-List-App/blob/main/screenshots/1.png)
+![todoList2](https://github.com/AbdulrahmanIsmael/TO-DO-List-App/blob/main/screenshots/2.png)
 
 
 ## The Demo :
 
-[![Demo](https://img.shields.io/badge/Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://to-do-list-app-swart.vercel.app/)
+[![Demo](https://img.shields.io/badge/Demo-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://to-do-list-app-swart.vercel.app/)
+
+<hr/>
+
 ## 🚀 About Me
 I'm a front End developer, I have the ability to build interactive, responsive and Organized Websites.
 

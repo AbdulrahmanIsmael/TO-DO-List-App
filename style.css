@@ -1,0 +1,131 @@
+body{
+  background: #202124;
+}
+
+#main-container{
+  box-shadow: 2px 2px 5px #000;
+  width: 800px;
+  padding: 8px;
+  background: linear-gradient(180deg, rgb(235, 221, 221), rgb(29, 28, 28));
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#container{
+  padding-left: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+}
+
+#container > h1{
+  color: rgb(29, 28, 28);
+  font-weight: 400;
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-task {
+  margin-bottom: 20px;
+}
+
+.input-task > input{
+  color: white;
+  border: 0px;
+  box-shadow: 1px 1px 4px rgb(73, 70, 70);
+  padding: 6px;
+  width: 500px;
+  height: 19px;
+  background-color: rgb(32, 33, 36);
+  transition: background-color 500ms, outline 400ms;
+}
+
+.input-task>input:focus{
+  color: #000;
+  background-color: #ede3e3;
+  outline: none;
+}
+
+.submit{
+  margin-top: 12px;
+  width: 120px;
+  height: 30px;
+  box-shadow: 1px 1px 3px rgb(39, 37, 37);
+  border: 0px;
+  background-color: rgb(225, 219, 219);
+  cursor: pointer;
+  transition: all 700ms;
+}
+
+.submit:hover{
+  background-color: #202124;
+  color: white;
+}
+
+#container1 {
+  padding-left: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 7px;
+}
+
+#container1>h1 {
+  color: rgb(29, 28, 28);
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-task1>input {
+  color: white;
+  border: 0px;
+  box-shadow: 1px 1px 4px rgb(73, 70, 70);
+  padding: 6px;
+  width: 500px;
+  height: 19px;
+  margin-bottom: 10px;
+  background-color: rgb(32, 33, 36);
+  transition: background-color 500ms, outline 400ms;
+}
+
+.input-task1>input:focus {
+  color: #000;
+  background-color: #ede3e3;
+  outline: none;
+}
+
+label{
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  color: rgb(29, 28, 28);
+}
+
+.task-item{
+  position: relative;
+  color: rgb(0, 0, 0);
+  list-style-type: none;
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid rgb(32, 31, 31);
+  font-family: 'Koulen', cursive;
+  word-break: break-all;
+}
+
+.clear-task{
+  position: absolute;
+  right: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.clear-task:hover{
+  opacity: 0.8;
+}

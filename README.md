@@ -25,7 +25,7 @@ This is my First JavaScript Project.
 
 [![Demo](https://img.shields.io/badge/Demo-ffffff?style=for-the-badge&logo=vercel&logoColor=black)](https://to-do-list-app-swart.vercel.app/)
 
-<hr/>
+---
 
 ## 🚀 About Me
 I'm a front End developer, I have the ability to build interactive, responsive and Organized Websites.
